@@ -1,0 +1,13 @@
+2. git show 기본적인 사용법
+git show : 현재 브랜치의 가장 최근 커밋 정보를 확인함
+
+git show 커밋해시값 : 특정 커밋 정보를 확인함
+
+git show HEAD : HEAD 포인터가 가리키는 커밋정보를 확인함
+
+git show 커밋해시값 또는 HEAD^:
+
+마지막에 ^표시가 있다.
+^표시 한 개면 한 개전 두 개면 두 개전, 갯수로 얼마나 이전 값인지 알수 있음
+$ git show a87f2cc^
+$ git show HEAD^^
