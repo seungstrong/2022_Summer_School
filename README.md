@@ -144,28 +144,38 @@ export default MyComponent;
 * 참조 링크
 
 [link keyword][id]
+
 [id]: URL "Optional Title here"
 
 // examle
 Link: [google][googlelink]
+
 Naver:[naver][naversite]
+
 [googlelink]: https://google.co.uk "Let's Go Google"
+
 [naversite]:https://www.naver.com "Let's go naver"
 
 
 * 외부 링크
 
 [Title](link)
+
 // examle
+
 [Google](https://google.co.uk "Let's Go Google“)
 
 
 * 자동 링크
+
  문서 내 일반 URL이나 꺽쇠 괄호(‘< >’) 안의 URL은 자동으로 연결
+
  일반적인 URL 혹은 이메일 주소인 경우
 
 // examle
+
 Google Homepage: https://google.co.uk
+
 Naver Homepage: <https://naver.com>
 
 -----------------------------------------------
