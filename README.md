@@ -45,16 +45,16 @@ Department : Andong National University (ANU), Computer Science Department
 
 2022/06/21(화) 누리호 발사 성공
 
-	'''js
-		import React from 'react';
-	function MyComponent(props) {
-		if (props.isBar) {
-			return <div>Bar< / div>;
-		}
-		return <div>Foo< / div>;
+```js
+	import React from 'react';
+function MyComponent(props) {
+	if (props.isBar) {
+		return <div>Bar< / div>;
 	}
-	export default MyComponent;
-	'''
+	return <div>Foo< / div>;
+}
+export default MyComponent;
+```
 
 누리호 성공 축하!!!!
 
