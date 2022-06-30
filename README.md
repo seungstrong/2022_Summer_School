@@ -45,7 +45,22 @@ Department : Andong National University (ANU), Computer Science Department
 
 2022/06/21(화) 누리호 발사 성공
 
-	세계에서 7번째 우주 강국
+	class Pizza {
+	public:
+		Pizza(int s) :size(s) {}
+		int size;
+	};
+
+	void makeDouble(Pizza &p)
+	{
+		p.size *= 2;
+	}
+
+	int main()
+	{
+	
+		return 0;
+	}
 
 누리호 성공 축하!!!!
 
@@ -55,3 +70,54 @@ Department : Andong National University (ANU), Computer Science Department
 2022/06/21(화) 누리호 발사 성공
 	세계에서 7번째 우주 강국
 누리호 성공 축하!!!!
+
+
+Code Block Method 1  <pre><code> {code} </code></pre> 이용방법
+------------------------------------------------------------------------------
+<pre>
+<code>
+	class Car {
+		private String modelName;
+		private int modelYear;
+		private String color;
+		private int maxSpeed;
+		private int currentSpeed;
+		Car(String modelName, int modelYear, String color, int maxSpeed) {
+			this.modelName = modelName;
+			this.modelYear = modelYear;
+			this.color = color;
+			this.maxSpeed = maxSpeed;
+			this.currentSpeed = 0;
+		}
+	}
+</code>
+</pre>
+
+
+Code Block Method 2  “ ‘ ‘ ‘ “ 이용방법
+--------------------------------------------
+```
+import React from 'react';
+function MyComponent(props) {
+if (props.isBar) {
+return <div>Bar</div>;
+}
+return <div>Foo</div>;
+}
+export default MyComponent;
+```
+
+
+#Code Block Method 3
+##코드블럭 시작점(" ''' ")에 사용하는 언어를 선언하여 문법 강조 가능
+---------------------------------------------------------------------------
+``` js
+import React from 'react';
+function MyComponent(props) {
+if (props.isBar) {
+return <div>Bar</div>;
+}
+return <div>Foo</div>;
+}
+export default MyComponent;
+```
