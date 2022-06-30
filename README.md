@@ -195,3 +195,99 @@ Naver Homepage: <https://naver.com>
 **_이텔릭체_와 두껍게**를 같이 사용할 수 있음
 
 취소선은 ~~물결표시(tilde)~~를 사용
+
+
+
+1. Images
+
+* 영상을 화면에 출력, ‘!’, ‘[ ]‘ 그리고 ‘( )'를 이용
+
+* 영상이 웹 사이트에 같이 있어야 함
+
+* 혹은 경로 지정해서 영상 사용
+
+![alt text](image url "image Title")
+
+// examle 1
+![Street](TestImage.jpg "Oxford")
+
+// examle 2
+Inline-style:
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+Reference-style:
+![alt text][logo]
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+
+* 크기조절
+
+// example 3
+
+<img src="TestImage.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+<img src="TestImage.jpg" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
+
+
+2. Footnotes
+
+* 각주는 핵심 Markdown 사양의 일부가 아니지만 GFM에서 지원
+
+* '^'기호 사용
+
+Here is a simple footnote[^1].
+
+A footnote can also have multiple lines[^2].
+
+You can also use words, to fit your writing style more closely[^note].
+
+[^1]: My reference.
+[^2]: Every new line should be prefixed with 2 spaces.
+This allows you to have a footnote with multiple lines.
+[^note]:
+Named footnotes will still render with numbers instead of the text but allow easier identification and linking.
+This footnote also has been made with a different syntax using 4 spaces for new lines.
+
+
+3. Table
+
+* <table> 태그로 변환됨
+
+* 헤더 셀을 구분할 때 3개 이상의 -(hyphen/dash) 기호가 필요함
+
+* 헤더 셀을 구분하면서 :(Colons) 기호로 셀(열/칸) 안에 내용을 정렬할 수 있음
+
+* 가장 좌측과 가장 우측에 있는 ‘|(vertical bar)” 기호는 생략 가능
+
+// example 1
+
+| 값 | 의미 | 기본값 |
+|---|:---:|---:|
+| `static` | 유형(기준) 없음 / 배치 불가능 | `static` |
+| `relative` | 요소 자신을 기준으로 배치 | |
+| `absolute` | 위치 상 부모(조상)요소를 기준으로 배치 | |
+| `fixed` | 브라우저 창을 기준으로 배치 | |
+
+// example 2
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
+
+4. 줄 바꿈
+
+* 일반 텍스트 문장: 문장 끝에 공백 2번(스페이스 2번)하면 줄 바꿈이 됨.
+
+* 테이블 내에서나 일반적인 경우: '<br>' 사용
+
+// example 1
+
+예를 들어, 지금
+공백 2번 만들어서 지금과 공백 사이에서 줄 바꿈이 된다.
+
+// example 2
+
+안녕하세요. <br>반갑습니다. 줄이 바뀌었어요.
+
+
