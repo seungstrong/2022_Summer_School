@@ -72,7 +72,7 @@ Department : Andong National University (ANU), Computer Science Department
 누리호 성공 축하!!!!
 
 
-Code Block Method 1  <pre><code> {code} </code></pre> 이용방법
+Code Block Method 1  \\<!--<pre><code> {code} </code></pre>-->이용방법
 ------------------------------------------------------------------------------
 <pre>
 <code>
