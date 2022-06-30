@@ -186,7 +186,7 @@ Naver Homepage: <https://naver.com>
 
 텍스트를 강조할 때 사용하는 문법
 
-각각 <em>, <strong>, <del> 태그로 변환됨
+각각 '<em>', '<strong>', '<del>' 태그로 변환됨
 
 문장 중간에 사용할 경우 띄어쓰기를 하는 것이 좋음
 
