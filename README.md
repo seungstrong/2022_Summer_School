@@ -140,3 +140,48 @@ export default MyComponent;
 - - -
 ㅇㅅㅇ
 ---------------
+
+* 참조 링크
+
+[link keyword][id]
+[id]: URL "Optional Title here"
+
+// examle
+Link: [google][googlelink]
+Naver:[naver][naversite]
+[googlelink]: https://google.co.uk "Let's Go Google"
+[naversite]:https://www.naver.com "Let's go naver"
+
+
+* 외부 링크
+
+[Title](link)
+// examle
+[Google](https://google.co.uk "Let's Go Google“)
+
+
+* 자동 링크
+ 문서 내 일반 URL이나 꺽쇠 괄호(‘< >’) 안의 URL은 자동으로 연결
+ 일반적인 URL 혹은 이메일 주소인 경우
+
+// examle
+Google Homepage: https://google.co.uk
+Naver Homepage: <https://naver.com>
+
+-----------------------------------------------
+* 강조하기(Emphasis)
+
+텍스트를 강조할 때 사용하는 문법
+
+각각 <em>, <strong>, <del> 태그로 변환됨
+
+문장 중간에 사용할 경우 띄어쓰기를 하는 것이 좋음
+
+// examle
+이텔릭체 *별표(asterisks)* 혹은 _언더바(underscore)_를 사용
+
+두껍게는 ** 별표(asterisks)* 혹은 __언더바(underscore)__를 사용
+
+**_이텔릭체_와 두껍게**를 같이 사용할 수 있음
+
+취소선은 ~~물결표시(tilde)~~를 사용
