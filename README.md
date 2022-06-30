@@ -191,6 +191,7 @@ Naver Homepage: <https://naver.com>
 문장 중간에 사용할 경우 띄어쓰기를 하는 것이 좋음
 
 // examle
+	
 이텔릭체 *별표(asterisks)* 혹은 _언더바(underscore)_를 사용
 
 두껍게는 ** 별표(asterisks)* 혹은 __언더바(underscore)__를 사용
@@ -212,10 +213,13 @@ Naver Homepage: <https://naver.com>
 ![alt text](image url "image Title")
 
 // examle 1
+	
 ![Street](TestImage.jpg "Oxford")
 
 // examle 2
+	
 Inline-style:
+	
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 Reference-style:
