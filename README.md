@@ -45,22 +45,16 @@ Department : Andong National University (ANU), Computer Science Department
 
 2022/06/21(화) 누리호 발사 성공
 
-	class Pizza {
-	public:
-		Pizza(int s) :size(s) {}
-		int size;
-	};
-
-	void makeDouble(Pizza &p)
-	{
-		p.size *= 2;
+	``` js
+		import React from 'react';
+	function MyComponent(props) {
+		if (props.isBar) {
+			return <div>Bar< / div>;
+		}
+		return <div>Foo< / div>;
 	}
-
-	int main()
-	{
-	
-		return 0;
-	}
+	export default MyComponent;
+	```
 
 누리호 성공 축하!!!!
 
