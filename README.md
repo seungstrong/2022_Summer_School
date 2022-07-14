@@ -41,7 +41,7 @@ Department : Andong National University (ANU), Computer Science Department
 
 
 들여쓰기
--------------
+--------------
 
 2022/06/21(화) 누리호 발사 성공
 
